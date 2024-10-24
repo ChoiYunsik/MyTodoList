@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { flexCenter } from './../../global/common';
+import { flexCenter } from '../../global/common';
 
 const S = {};
 

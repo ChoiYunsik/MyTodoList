@@ -56,7 +56,7 @@ const MyPage = () => {
     }
     const savePicture = async (e) => {
         if(!selectFile){
-            alert("이미지를 등록해주세요.")
+            alert("Please register the image")
         }
         const formData = new FormData();
         formData.append("picture", pictureRef.current.files[0]);

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import Input from '../../components/input/style';
-import BasicButton from './../../components/button/BasicButton';
+import BasicButton from '../../components/button/BasicButton';
 import S from './style';
 import { useNavigate } from 'react-router-dom';
 import { setUser, setUserStatus } from '../../modules/user';

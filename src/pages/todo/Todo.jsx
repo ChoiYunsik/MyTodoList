@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import S from './style';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPen, faTrash, faCheck, faX } from '@fortawesome/free-solid-svg-icons';
-import useInput from './../../hooks/userInput';
+import useInput from '../../hooks/userInput';
 
 const Todo = ({todo, isTodoUpdate, setIsTodoUpdate}) => {
     const {email, title} = todo;
